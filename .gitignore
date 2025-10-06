@@ -16,7 +16,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-*venv*/       # на випадок назви на кшталт "hw01venv"
+*venv*/       # in case of a name like "hw01venv"
 
 # pip, setuptools
 *.egg
@@ -56,7 +56,7 @@ coverage.xml
 *.iml
 
 # =========================
-# VSCode (можеш використовувати паралельно)
+# VSCode (can be used in parallel)
 # =========================
 .vscode/
 
@@ -75,27 +75,27 @@ coverage.xml
 *.conda
 *.env
 *.lock
-*.yml     # тільки якщо не явно створюєш environment.yml
+*.yml     # only if don't explicitly create environment.yml
 
 # Бекапи Jupyter
 *.bak
 *.tmp
-*~         # тимчасові/резервні файли
+*~         # temporary/backup files
 
 # =========================
-# Системні файли
+# system files
 # =========================
 .DS_Store
 Thumbs.db
 desktop.ini
 
 # =========================
-# Користувацькі шаблони
+# user templates
 # =========================
-# Ігнорувати віртуальні середовища в кожному ДЗ (наприклад, hw01/venv/)
-hw*/venv/
-hw*/env/
-hw*/.venv/
+# Ignore virtual environments in each lesson (e.g. hw01/venv/)
+lesson*/venv/
+lesson*/env/
+lesson*/.venv/
 
 
 # =========================
