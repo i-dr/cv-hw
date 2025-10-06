@@ -10,8 +10,9 @@ Test in difficult conditions when objects move in a turn and their appearance ch
 **MIL** - did not support tuning its parameters.
 
 **CSRT** - some tuning of `filter_lr` parameter made it possible to track the object for all 10 frames.  
+
 If `filter_lr` is high (~0.23 compared to default 0.02 )
 - The model quickly adapts to the new quick changed view, the tracker holds the object.
 - This is risky when we have occlusion, and tracker may follow wrong object.
 - But in this case, camera captures a top-down perspective of the racetrack, and the likelihood of object occlusion is minimal.
-"""
+
