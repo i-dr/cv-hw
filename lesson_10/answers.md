@@ -1,6 +1,6 @@
 ## CV lesson 10 homework
 We are going to use and compare two different trackers CSRT vs MIL, and compare the results.
-Test in difficult conditions when objects move in a turn and their appearance changes quickly.
+Tested in difficult conditions when objects move in a turn and their appearance changes quickly.
 
 ### Results
 **MIL** - Not very robust, can lose track when object easily changes in size and shape.  
