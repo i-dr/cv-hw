@@ -3,7 +3,8 @@
 # Architecture: AMD64
 # CPU: Intel64 Family 6 Model 37 Stepping 2, GenuineIntel (4 cores)
 # Environment: Anaconda
-# Generated on: 2025-10-21
+# Generated on: 2025-11-07
+
 # GPU (nvidia-smi): NVIDIA GeForce GT 1030
 # GPU visible to PyTorch: PyTorch not installed
 # GPU visible to TensorFlow: No
@@ -190,6 +191,7 @@ protobuf==6.32.1
 psutil==5.9.0
 ptyprocess==0.7.0
 pure-eval==0.2.2
+py-cpuinfo==9.0.0
 pycodestyle==2.12.1
 pycosat==0.6.6
 pycparser==2.21
